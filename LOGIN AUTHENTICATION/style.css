@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+#container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+    padding-bottom: 60px;
+}
+#content{
+    text-align: center;
+}
+#content h3{
+    font-size: 30px;
+    color: #333;
+}
+
+#content h3 span{
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2 8px;
+    margin: 0 10px;
+}
+
+#content h1{
+    color: #333;
+    font-size: 50px;
+}
+
+#content h1 span{
+    color: crimson;
+}
+
+#content p{
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: transform 0.3s ease-in 0s;
+}
+.btn:hover{
+    background-color: crimson;
+    transform: translateY(-10px);
+}
+
+div#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #eee;
+}
+div#main form{
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgb(0,0, 0,0.1);
+    border-radius: 5px;
+    width: 500px;
+}
+div#main form h3{
+  font-size: 27px;
+  text-transform: capitalize;
+  color: #333;
+  margin-bottom: 10px;
+}
+div#main form input,
+div#main form select{
+    width: 95%;
+    padding: 10px 20px;
+    background-color:#eee;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+div#main .form-btn{
+    background-color: #fbd0d9;
+    color: crimson;
+    text-transform: capitalize;
+    font-family: 17px;
+    cursor: pointer;
+}
+div#main .form-btn:hover{
+    color: #fff;
+    background-color: crimson;
+    transition: ease-in 0.5s;
+}
+div#main p{
+    font-size: 22px;
+    
+}
+div#main p a{
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+div#mani {
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 8px;
+    background-color: #F0FFFF;
+    font-size: 1.37rem;
+    color: #00BFFF;
+}
